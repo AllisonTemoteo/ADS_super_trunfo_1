@@ -1,0 +1,105 @@
+/**
+ * Program: Super Trunfo - Criador de cartas
+ * Dev: Allison Temoteo
+ * version: 0.1
+ */
+
+#include <stdio.h>
+
+int main () {
+  char card1_estate;
+  char card1_cardCode[3];
+  char card1_cityName[50];
+  int card1_population;
+  float card1_area;
+  float card1_pib;
+  int card1_touristPointNumber;
+
+  char card2_estate;
+  char card2_cardCode[3];
+  char card2_cityName[50];
+  int card2_population;
+  float card2_area;
+  float card2_pib;
+  int card2_touristPointNumber;
+
+  printf("-----------------------------------------------------------------------\n");
+  printf("Cadastro de cartas - Super Trunfo - v0.1\n\n");
+  printf("Por favor, insira os dados solicitados respeitando os valores esperados\n");
+  printf("-----------------------------------------------------------------------\n\n");
+
+  printf("Carta 1\n");
+
+  printf("Estado (A-H): ");
+  scanf("%c", &card1_estate);
+
+  printf("Código (01-04): ");
+  scanf("%s", &card1_cardCode);
+
+  printf("Nome da cidade (até 50 caracteres): ");
+  scanf("%s", &card1_cityName);
+
+  printf("População: ");
+  scanf("%d", &card1_population);
+
+  printf("Área (km²): ");
+  scanf("%f", &card1_area);
+
+  printf("PIB: ");
+  scanf("%f", &card1_pib);
+
+  printf("Quantidade de pontos turísticos: ");
+  scanf("%d", &card1_touristPointNumber);
+  printf("\n");
+
+  getchar();
+
+  printf("-----------------------------------------------------------------------\n\n");
+  printf("Carta 2\n");
+
+  printf("Estado (A-H): ");
+  scanf("%c", &card2_estate);
+
+  printf("Código (01-04): ");
+  scanf("%s", &card2_cardCode);
+
+  printf("Nome da cidade (até 50 caracteres): ");
+  scanf("%s", &card2_cityName);
+
+  printf("População: ");
+  scanf("%d", &card2_population);
+
+  printf("Área (km²): ");
+  scanf("%f", &card2_area);
+
+  printf("PIB: ");
+  scanf("%f", &card2_pib);
+
+  printf("Quantidade de pontos turísticos: ");
+  scanf("%d", &card2_touristPointNumber);
+
+  printf("-----------------------------------------------------------------------\n\n");
+
+  printf("Carta 1:\n");
+  printf("Estado: %c\n", card1_estate);
+  printf("Código da carta: %c%s\n", card1_estate, card1_cardCode);
+  printf("Nome da cidade: %s\n", card1_cityName);
+  printf("População: %d\n", card1_population);
+  printf("Área: %f\n", card1_area);
+  printf("PIB: %f\n", card1_pib);
+  printf("Número de pontos turísticos: %d\n", card1_touristPointNumber);
+
+  printf("\n");
+  printf("Carta 2:\n");
+  printf("Estado: %c\n", card2_estate);
+  printf("Código da carta: %c%s\n", card2_estate, card2_cardCode);
+  printf("Nome da cidade: %c\n", card2_cityName);
+  printf("População: %d\n", card2_population);
+  printf("Área: %f\n", card2_area);
+  printf("PIB: %f\n", card2_pib);
+  printf("Número de pontos turísticos: %d\n", card2_touristPointNumber);
+
+  printf("\n");
+
+  return 0;
+}
