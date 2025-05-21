@@ -55,6 +55,7 @@ int main () {
   getchar();
 
   printf("-----------------------------------------------------------------------\n\n");
+
   printf("Carta 2\n");
 
   printf("Estado (A-H): ");
@@ -93,7 +94,7 @@ int main () {
   printf("Carta 2:\n");
   printf("Estado: %c\n", card2_estate);
   printf("Código da carta: %c%s\n", card2_estate, card2_cardCode);
-  printf("Nome da cidade: %c\n", card2_cityName);
+  printf("Nome da cidade: %s\n", card2_cityName);
   printf("População: %d\n", card2_population);
   printf("Área: %f\n", card2_area);
   printf("PIB: %f\n", card2_pib);
