@@ -1,7 +1,7 @@
 /**
  * Program: Super Trunfo - Criador de cartas
  * Dev: Allison Temoteo
- * version: 0.2
+ * version: 0.3
  */
 
 #include <stdio.h>
